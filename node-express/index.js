@@ -3,7 +3,7 @@ const http = require('http');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
 
-const dishRouter = require('./require/dishRouter');
+const dishRouter = require('./routes/dishRouter');
 
 const hostname = 'localhost',
     port = 3000;
